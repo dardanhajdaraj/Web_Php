@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    background: url("4.jpg")  center / cover;
+    background: url("img/4.jpg")  center / cover;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -16,7 +16,7 @@ body {
     height: 500px;
     background: red;
     overflow: hidden;
-    background: url("2.jpg")  center / cover;
+    background: url("img/2.jpg")  center / cover;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
 }

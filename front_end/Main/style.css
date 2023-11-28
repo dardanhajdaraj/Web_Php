@@ -2,7 +2,7 @@
   margin: 0;
 }
 body{
-  background-color: #700099;
+  background-color: rgb(122, 87, 134);
 }
 .Bar{
     display: flexbox;
@@ -12,14 +12,14 @@ body{
     justify-content: flex-start;
     border: none;
     background-color: transparent;
-    height: 50px;
+    height: 150px;
     overflow: hidden;
 }
 .Bar a{
     padding: 14px 16px;
     display: inline-block;
     text-decoration: none;
-    color: white;
+    color: rgb(241, 219, 219);
 }
 .Bar a:hover{
     background-color: grey ;
@@ -100,7 +100,7 @@ body{
   }
 
   img {
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
     border: 1px solid #ddd; /* Add a border around the image if desired */
     border-radius: 4px; /* Optional: Add rounded corners */
