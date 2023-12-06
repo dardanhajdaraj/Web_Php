@@ -1,66 +1,623 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Document</title>
-    </head>
-    <body>
-        <nav class="Bar">
-            <a href=""><img src="Logo_Banner.jpg" alt="Lyra"></a>
-            <div class="links">
-                <a href="About_Us_Signed.html">About Us</a>
-              <a href="contactUs.html">Contact Us</a>
-            </div>
-            <a href="#" class="Bar-2">Sign Up</a>
-          </nav>
-        <div id="slideshow">
-            <div class="slide-wrapper">
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            </div>
-        </div>
-    <div class="flex-container">
-        <div class="text-container">
-            <h2>LYRA</h2>
-            <p>LYRA is a dynamic global trade partner specializing in seamless import and export solutions.<br>With a diverse network and expert logistics, we ensure efficient movement of goods worldwide.<br>Tailoring services to unique business needs, LYRA simplifies international trade, connecting businesses to new markets and opportunities.<br>Join us in shaping a borderless future with LYRA—where trade knows no bounds.</p>
-        </div>
-        <img src="Describe)Photo.jpg" alt="">
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYRA</title>
 
-    <h1 style="text-align: center;">TOP REQUESTED ITEMS</h1>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    
 
-    <section class="container">
-        <div class="card">
-            <div class="card-image card-1"></div>
-            <h2>Christams Tree</h2>
-            <p>A Christmas tree is a decorated tree, usually an evergreen conifer, such as a spruce, pine or fir, or an artificial tree of similar appearance, associated with the celebration of Christmas. </p>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+ 
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- header section starts      -->
+
+    <header class="Bar">
+      <a href="#home"><img src="img/Logo_Banner.jpg" alt="Lyra"></a>
+  
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#about">About us</a>
+            <a href="#contact">Contact us</a>
+            <a href="#product">Product</a>
+            <a href="#offers">Offers</a>
+            <a href="#order">order</a>            
+        </nav>
+        <a href="#" class="logout"><b>Log out</b></a>
+        <div class="icons">
+          <i class="fas fa-bars" id="menu-bars"></i>       
+          <i class="fas fa-search" id="search-icon"></i>
+          <a href="#" class="fas fa-shopping-cart"></a>
         </div>
-        <div class="card">
-            <div class="card-image card-2"></div>
-            <h2>Barbie Doll</h2>
-            <p>Barbie is a fashion doll created by American businesswoman Ruth Handler, manufactured by American toy company Mattel and launched in 1959 and its the most sold doll in christmas holiday</p>
+        
+      </header>
+  
+      <!-- header section ends-->
+
+
+    <!-- search form  -->
+
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Lyra company</span>
+              <h3>Safe shipping</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                natus dolor cumque?
+              </p>
+            </div>
+            <div class="image">
+              <img src="img/Logo.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Quality products</span>
+              <h3>The best products</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                natus dolor cumque?
+              </p>
+            </div>
+            <div class="image">
+              <img src="img/Logo1.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>Goods transport</span>
+              <h3>free and fast</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                natus dolor cumque?
+              </p>
+            </div>
+            <div class="image">
+              <img src="img/Logo2.jpg" alt="" />
+            </div>           
+          </div>
+          <div class="swiper-slide slide">
+            <div class="content">
+              <span>24/7</span>
+              <h3>SERVICE</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                natus dolor cumque?
+              </p>
+            </div>
+            <div class="image">
+              <img src="img/Logo3.jpg" alt="" />
+            </div>
         </div>
-        <div class="card">
-            <div class="card-image card-3"></div>
-            <h2>Christmas ornaments and decorations</h2>
-            <p>Christmas ornaments, baubles, globes, "Christmas bulbs" or "Christmas bubbles" are decoration items, usually to decorate Christmas trees. These decorations may be woven, blown,molded, carved from wood or expanded polystyrene, or made by other techniques.</p>
-        </div>
+
+        <div class="swiper-pagination"
+        style="margin-top: 2px;"
+        ></div>
+      </div>
     </section>
-    </body>
-    <footer>
-    <div class="Footer">
-        <div class="socialIcons">
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-brands fa-youtube"></i></a>
+
+    <!-- home section ends -->
+
+    <!-- product section starts  -->
+
+    <section class="product" id="product">
+      <h3 class="sub-heading">our products</h3>
+      <h1 class="heading">Product</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="img/img_1.jpg" alt="" />
+          <h3>Textile</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$5 - $100</span>
+          <a href="#" class="btn">add to cart</a>
         </div>
-    </div>
-    </footer>
-    </html>
+
+        <div class="box">
+          <img src="img/img_2.jpg" alt="" />
+          <h3>Food</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$1 - $30</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/img_3.jpg" alt="" />
+          <h3>Building Materials</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$1 - $500</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/img_4.jpg" alt="" />
+          <h3>Car</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$1000 - $20000</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/img_5.jpg" alt="" />
+          <h3>agricultural products</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$1 - $50</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="img/img_6.jpg" alt="" />
+          <h3>wood products</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>$10 - 100$</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <h3></h3>
+          <iframe
+            width="100%"
+            height="500" 
+            src="img/gif3.jpg"
+            frameborder="0"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- product section ends -->
+
+        <!-- about section starts  -->
+
+        <section class="about" id="about">
+          <h3 class="sub-heading">about us</h3>
+          <h1 class="heading">why choose us?</h1>
+    
+          <div class="row">
+            <div class="image">
+              <img src="img/about_3.png" alt="" />
+            </div>
+    
+            <div class="content">
+              <h3>The best conditions in the region</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
+                sequi corrupti corporis quaerat voluptatem ipsam neque labore modi
+                autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio
+                corporis nihil!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+                nemo. Sit porro illo eos cumque deleniti iste alias, eum natus.
+              </p>
+              <div class="icons-container">
+                <div class="icons">
+                  <i class="fas fa-shipping-fast"></i>
+                  <span>free delivery</span>
+                </div>
+                <div class="icons">
+                  <i class="fas fa-dollar-sign"></i>
+                  <span>easy payments</span>
+                </div>
+                <div class="icons">
+                  <i class="fas fa-headset"></i>
+                  <span>24/7 service</span>
+                </div>
+              </div>
+              <a href="#" class="btn">learn more</a>
+            </div>
+          </div>
+        </section>
+    
+        <!-- about section ends -->
+    
+        <!-- offers section starts  -->
+    
+        <section class="offers" id="offers">
+          <h3 class="sub-heading">Offers</h3>
+          <h1 class="heading">today's Offers</h1>
+    
+          <div class="box-container">
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_1.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Coca Cola</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$0.99</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_2.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Meat</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$5.99</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_3.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Cement</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$2.99</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_4.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>the bread table</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$219.99</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_5.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>bedroom</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$599.99</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_6.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>shoes</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$12.99</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_7.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>jackets</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$29.99</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_8.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>Mercedes AMG</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$50000</span>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="image">
+                <img src="img/Offers_9.jpg" alt="" />
+                
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>transport truck</h3>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Excepturi, accusantium.
+                </p>
+                <a href="#" class="btn">add to cart</a>
+                <span class="price">$27000</span>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <!-- offers section ends -->
+    
+        <!-- order section starts  -->
+    
+        <section class="order" id="order">
+          <h3 class="sub-heading">order now</h3>
+          <h1 class="heading">free and fast</h1>
+    
+          <form action="">
+            <div class="inputBox">
+              <div class="input">
+                <span>your name</span>
+                <input type="text" placeholder="enter your name" />
+              </div>
+              <div class="input">
+                <span>your number</span>
+                <input type="number" placeholder="enter your number" />
+              </div>
+            </div>
+            <div class="inputBox">
+              <div class="input">
+                <span>your order</span>
+                <input type="text" placeholder="enter products name" />
+              </div>
+              <div class="input">
+                <span>products</span>
+                <input type="test" placeholder="extra with products" />
+              </div>
+            </div>
+            <div class="inputBox">
+              <div class="input">
+                <span>how musch</span>
+                <input type="number" placeholder="how many orders" />
+              </div>
+              <div class="input">
+                <span>date and time</span>
+                <input type="datetime-local" />
+              </div>
+            </div>
+            <div class="inputBox">
+              <div class="input">
+                <span>your address</span>
+                <textarea
+                  name=""
+                  placeholder="enter your address"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+              <div class="input">
+                <span>your message</span>
+                <textarea
+                  name=""
+                  placeholder="enter your message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+    
+            <input type="submit" value="order now" class="btn" />
+          </form>
+        </section>
+    
+        <!-- order section ends -->
+    
+        <!-- contact section starts  -->
+    
+        <section class="contact" id="contact">
+          <div class="box-container">
+            <div class="box">
+              <h3>locations</h3>
+              <a href="#">Kosova</a>
+              <a href="#">Albania</a>
+              <a href="#">Macedonia</a>
+              <a href="#">Croatia</a>
+              <a href="#">Montenegro</a>
+            </div>
+    
+            <div class="box">
+              <h3>quick links</h3>
+              <a href="#">home</a>
+              <a href="#">products</a>
+              <a href="#">about</a>
+              <a href="#">Offers</a>
+              <a href="#">reivew</a>
+              <a href="#">order</a>
+            </div>
+    
+            <div class="box">
+              <h3>contact info</h3>
+              <a href="#">+383-456-780</a>
+              <a href="#">+383-222-333</a>
+              <a href="#">kososva_exp@gmail.com</a>
+              <a href="#">kosova_imp@gmail.com</a>
+              <a href="#">Prishtina, Kosova - 10000</a>
+            </div>
+    
+            <div class="box">
+              <h3>follow us</h3>
+              <a href="#">facebook</a>
+              <a href="#">twitter</a>
+              <a href="#">instagram</a>
+              <a href="#">linkedin</a>
+            </div>
+          </div>
+    
+          <div class="credit">
+            <span> copyright @ 2023 </span>
+          </div>
+        </section>
+    
+        <!-- contact section ends -->
+    
+        <!-- loader part  -->
+        <div class="loader-container">
+          <img src="img/Logo_Banner.jpg" alt="" />
+        </div>
+    
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+        <!-- custom js file link  -->
+        <script src="script.js"></script>
+</body>
+</html>
