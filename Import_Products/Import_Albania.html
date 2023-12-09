@@ -119,5 +119,36 @@
             <a href="#"><button><strong>ORDER</strong></button></a>
         </article>
     </div>
+    <!-- <button onclick="sortProductsAlphabetically()">Sort Alphabetically</button>
+
+    <script>
+        // JavaScript code to sort products alphabetically by name
+        function sortProductsAlphabetically() {
+            let container = document.querySelector('.container');
+            let products = Array.from(container.querySelectorAll('.card'));
+
+            products.sort((a, b) => {
+                let nameA = a.querySelector('h1').innerText.toUpperCase();
+                let nameB = b.querySelector('h1').innerText.toUpperCase();
+
+                if (nameA < nameB) {
+                    return -1;
+                }
+                if (nameA > nameB) {
+                    return 1;
+                }
+                return 0;
+            });
+
+            // Clear existing content in the container
+            container.innerHTML = '';
+
+            // Append sorted products to the container
+            products.forEach(product => {
+                container.appendChild(product);
+            });
+        }
+    </script> -->
+
 </body>
 </html>
