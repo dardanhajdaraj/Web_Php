@@ -3,54 +3,56 @@
     margin: 0;
 }
 
+
 .Bar {
     display: flex;
     align-items: center;
-    background-color: purple;
+    background-color: lightgrey; /* Light grey background color for navbar */
     height: 60px;
     padding: 0 20px;
-  }
-  
-  .Bar img {
+}
+
+.Bar img {
     width: 40px;
     height: 40px;
-  }
-  
-  .Bar .links {
+}
+
+.Bar .links {
     display: flex;
     align-items: center;
     margin-right: auto;
-  }
-  
-  .Bar a {
+}
+
+.Bar a {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
     margin-left: 20px;
-  }
-  
-  .Bar a:hover {
-    background-color: #1a1a1a;
+}
+
+.Bar a:hover {
+    background-color: #27ae60; /* Green background color on hover */
     height: 30px;
     border-radius: 10px;
-  }
-  
-  .Bar-2 {
-    margin-left: 20px; /* Adjust as needed */
-  }
-body{
-    background-color: purple;
 }
+
+.Bar-2 {
+    margin-left: 20px; /* Adjust as needed */
+}
+
+body{
+    background-color: rgba(6, 6, 36, 0.737); /* White background color */
+}
+
 #overlay{
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: purple;
+    background-color:  rgba(6, 6, 36, 0.737);  /* White background color */
     background-size: cover;
 }
 
 form{
-
     max-width: 550px;
     width: 90%;
     background-color: white;
@@ -79,10 +81,10 @@ input, textarea{
 }
 
 input[type="text"]:focus, textarea:focus{
-    border-bottom: 1px solid purple;
+    border-bottom: 1px solid #27ae60;
 }
 input[type="submit"] {
-    background-color: purple;
+    background-color: #27ae60;
     color: white;
     padding: 10px 20px;
     font-size: 16px;
@@ -92,7 +94,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #1a1a1a;
+    background-color: #27ae60;
 }
 textarea::-webkit-scrollbar-thumb{
     background-color: purple;
@@ -104,7 +106,7 @@ textarea::-webkit-scrollbar-thumb{
 .center button{
     width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: #27ae60;
     color: white;
     width: 90%;
     max-width: 200px;
