@@ -1,17 +1,7 @@
 body {
-    background-color: #000; /* Black background color */
+    background-color: white; /* White background color */
     font-family: 'Arial', sans-serif;
-    color: #fff; /* White text color */
-}
-
-.Box .Country {
-    background-color: #301652; /* Dark purple background color */
-    padding: 10px;
-    border-radius: 10px;
-}
-
-.Box p {
-    color: #fff; /* White text color */
+    color: #000; /* Black text color */
 }
 
 .Bar {
@@ -21,7 +11,7 @@ body {
     margin: 0;
     justify-content: flex-start;
     border: none;
-    background-color: #4e2a84; /* Purple background */
+    background-color: lightgrey; /* Light grey background for navbar */
     height: 50px;
     overflow: hidden;
 }
@@ -30,23 +20,23 @@ body {
     padding: 14px 16px;
     display: inline-block;
     text-decoration: none;
-    color: #fff; /* White text color */
+    color: #000; /* Black text color */
 }
 
 .Bar a:hover {
-    background-color: #6a3aad; /* Darker shade of purple on hover */
+    background-color: #27ae60; /* Green on hover */
     height: 55px;
 }
 
 .Bar-1 {
-    background-color: #6a3aad; /* Darker shade of purple */
+    background-color: #27ae60; /* Green color */
     height: 50px;
     width: 40px;
 }
 
 h1 {
     text-align: center;
-    color: #fff; /* White text color */
+    color: #000; /* Black text color */
 }
 
 .Box {
@@ -60,13 +50,14 @@ h1 {
 .Box .Country {
     flex-basis: calc(33.33% - 10px);
     text-align: center;
-    background-color: #301652; /* Dark purple background color */
+    background-color: rgba(6, 6, 36, 0.737);/* White background color for boxes */
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
 }
 
 .Box p {
-    color: #fff; /* White text color */
+    color: #000; /* Black text color */
 }
 
 .Box img {
