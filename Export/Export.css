@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #1a1a1a;
+    background-color: rgba(6, 6, 36, 0.737); /* Updated background color */
     font-family: 'Arial', sans-serif;
     color: #fff;
 }
@@ -13,7 +13,7 @@ body {
 .Bar {
     display: flex;
     align-items: center;
-    background-color: #4e2a84;
+    background-color: lightgrey; /* Light grey background color for navbar */
     height: 60px;
     padding: 0 20px;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 .Bar a:hover {
-    background-color: #1a1a1a;
+    background-color: #27ae60; /* Green background color on hover */
     padding: 10px;
     border-radius: 10px;
 }
@@ -53,6 +53,8 @@ body {
     align-items: center;
     margin: 20px;
 }
+
+
 
 .InputGroup {
     width: calc(33.33% - 20px);
